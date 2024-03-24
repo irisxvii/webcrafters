@@ -134,14 +134,15 @@ img{
     display: inline-block;
     text-decoration: none;
     border: 1px solid gray;
+    border-radius: 10%;
     color: beige;
-    padding: 10px 50px;
+    padding: 8px 12px 5px 12px;
     background: transparent;
     position: relative;
     cursor: pointer;
 }
 .button-more:hover{
-    border: 1px solid rgb(23, 24, 26);
-    background: rgb(23, 24, 26);
+    border: 1px solid rgb(80, 83, 90);
+    background: rgb(80, 83, 90);
     transition: 1s;
 }
