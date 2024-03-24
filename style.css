@@ -123,4 +123,10 @@ img{
     display: flex;
     justify-content: space-between;
     background-color: #2B2B2B;
+    font-family: cus;
+}
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
 }
