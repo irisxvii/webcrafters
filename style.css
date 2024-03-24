@@ -98,15 +98,29 @@ img{
     color: #D3D3D3;
     font-size: 15px;
 }
+
 /*-------------------------------our projects-------------------------*/
 .sub-header{
     background-color: #2B2B2B;
     width: 100%;
-    height: 80vh;
     color: beige;
 }
 .sub-header h1{
     text-align: center;
     font-family: custom;
     font-size: 500%;
+}
+.pro-col{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    color: beige;
+    background-color: #2B2B2B;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2B2B2B;
 }
