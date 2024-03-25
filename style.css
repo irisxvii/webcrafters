@@ -3,7 +3,6 @@
     padding: 0;
 }
 .header{
-    min-height: 100vh;
     width: 100%;
     background-color: #2B2B2B;
 }
@@ -50,24 +49,31 @@ nav img{
     src: url(nimbus/regularnimbus.otf);
 }
 .text-box h1{
-    font-size: 190px;
+    font-size: 180px;
     font-family: custom;
 }
+
 .text-box p{
     padding-top: 12%;
     font-size: 27px;
     font-family: cus;
     text-align: left;
     padding-left: 20%;
-    padding-bottom: 75%;
-    font-weight: bold;
-    
+    font-weight: bold;   
+}
+.text-box h5{
+    font-family: cus;
+    font-size: 27px;
+    text-align: left;
+    padding-left: 20%;
+    padding-top: 85%;
 }
 img{
     margin-left: 12%;
-    padding-top: 10%;
+    margin-top: 10%;
     width: 109%;
     height: 60%;
+    border: #D3D3D3 1px solid;
 }
 .container {
     display: grid;
@@ -75,6 +81,9 @@ img{
     grid-template-columns: 2.5fr 2.2fr 60px;
     column-gap: 120px;
    }
+
+
+
 /*--- .footer .waves{
     bottom: 0;
     width: 100%;
@@ -184,18 +193,20 @@ img{
     gap: 2rem;
     text-align: center;
     margin-top: 2rem;
-    padding-bottom: 3%;
+    padding-bottom: 4.5%;
 }
 .team-content img{
     width: 100%;
     height: auto;
-    margin-bottom: 15px;
+    margin-bottom: 8px;
 }
 .box h3{
     color: beige;
     font-family: cus;
+    padding-left: 20%;
 }
 .box h5{
     color: beige;
     font-family: cus;
+    padding-left: 20%;
 }
