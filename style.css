@@ -210,3 +210,15 @@ img{
     font-family: cus;
     padding-left: 20%;
 }
+/*-------------------------------------------*/
+.sub-heading{
+    background-color: #2B2B2B;
+    width: 100%;
+    color: beige;
+    min-height: 80vh;
+    }
+.sub-heading h1{
+    text-align: center;
+    font-family: custom;
+    font-size: 500%;
+}
