@@ -135,8 +135,13 @@ img{
     font-family: cus;
 }
 @media(max-width: 700px){
-    .row{
+    .row2{
         flex-direction: column;
+    }
+    @media(max-width: 700px){
+        .row{
+            flex-direction: column;
+        }
     }
 }
 .button-more{
