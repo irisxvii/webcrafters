@@ -1,1 +1,1 @@
-h3 this website is not fully responsive yet so please view it in your PC
+this website is not fully responsive yet so please view it in your PC
