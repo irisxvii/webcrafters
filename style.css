@@ -84,7 +84,7 @@ img{
     align-items: top;
     grid-template-columns: 2.5fr 2.2fr 60px;
     column-gap: 120px;
-    padding-bottom: 10%;
+    padding-bottom: 6%;
    }
 /*------------------------footer-------------------------*/
 .footer{
@@ -118,19 +118,28 @@ img{
     font-size: 500%;
 }
 .pro-col{
-    padding-top: 5%;
-    padding-bottom: 4%;
+    padding-top: 3%;
+    padding-bottom: 2%;
     margin-left: 6%;
     margin-right: 6%;
     text-align: center;
     color: beige;
     background-color: #2B2B2B;
 }
+.pro-col a{
+    margin-top: 3%;
+}
 .row{
     display: flex;
     justify-content: center;
     background-color: #2B2B2B;
     font-family: cus;
+}
+.row h3{
+    font-size: x-large;
+}
+.row p{
+    font-size: medium;
 }
 @media(max-width: 700px){
     .row2{
@@ -171,6 +180,12 @@ img{
     text-align: center;
     color: beige;
     background-color: #2B2B2B;
+}
+.row2 h3{
+    font-size: x-large;
+}
+.row2 p{
+    font-size: medium;
 }
 /*---------------------------team.html----------------------------------*/
 .community-header{
@@ -221,7 +236,47 @@ img{
     min-height: 80vh;
     }
 .sub-heading h1{
+    padding-top: 5%;
     text-align: center;
     font-family: custom;
     font-size: 500%;
 }
+/*---------------------*/
+.texts h3{
+    padding-top: 4%;
+    font-size: 24px;
+    font-family: cus;
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    align-items: top;
+}
+.texts li {
+    font-size: 24px;
+    font-family: cus;
+    text-align: left;
+    padding-left: 5%;
+    font-weight: bolder;
+    align-items: top;
+    padding-top: 2%;
+}
+.texts ul{
+    font-size: 24px;
+    font-family: cus;
+    text-align: left;
+    padding-left: 8%;
+    padding-right: 5%;
+    padding-top: 12px;
+    align-items: top;
+    font-weight: lighter;
+}
+.texts p{
+    font-family: custom;
+    font-size: 20px;
+    text-align: right;
+    padding-right: 5%;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+
