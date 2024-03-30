@@ -71,24 +71,22 @@ nav img{
 img{
     margin-left: 12%;
     margin-top: 10%;
-    width: 109%;
-    height: 60%;
+    width: 106%;
+    height: 60rem;
     border: #D3D3D3 1px solid;
+}
+.logo {
+    height: 7rem;
+    width: 7rem;
 }
 .container {
     display: grid;
     align-items: top;
     grid-template-columns: 2.5fr 2.2fr 60px;
     column-gap: 120px;
+    padding-bottom: 10%;
    }
-
-
-
-/*--- .footer .waves{
-    bottom: 0;
-    width: 100%;
-    left: 0;
-}----*/
+/*------------------------footer-------------------------*/
 .footer{
     text-align: center;
     font-family: cus;
@@ -108,7 +106,7 @@ img{
     font-size: 15px;
 }
 
-/*-------------------------------our projects-------------------------*/
+/*------------------------about.html-------------------------------*/
 .sub-header{
     background-color: #2B2B2B;
     width: 100%;
@@ -174,7 +172,7 @@ img{
     color: beige;
     background-color: #2B2B2B;
 }
-/*-------------------------community-----------------*/
+/*---------------------------team.html----------------------------------*/
 .community-header{
     background-color: #2B2B2B;
     min-height: 80vh;
@@ -215,7 +213,7 @@ img{
     font-family: cus;
     padding-left: 20%;
 }
-/*-------------------------------------------*/
+/*----------------------pros---------------------*/
 .sub-heading{
     background-color: #2B2B2B;
     width: 100%;
