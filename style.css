@@ -293,4 +293,9 @@ img{
     font-weight: bolder;
     padding-bottom: 20px;
 }
+.dummy-column{
+    float: left;
+    padding-left: 60px;
+    padding-right: 60px;
+}
 
